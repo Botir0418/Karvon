@@ -1,0 +1,36 @@
+#file_input{
+    display: none;
+}
+.form .bg-secondar{
+    margin-top: 15px;
+    background-color: rgb(225, 228, 230);
+    padding: 10px 0px 20px 25px;
+}
+.form .bg-secondar label{
+    font-weight: bold;
+}
+
+.bg-secondar input{
+    width: 70%;
+    background: none;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(141, 142, 143);
+}
+
+.col-md-7 a{
+    text-decoration: none;
+}
+.flex-wrap input{
+    width: 250px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+form textarea{
+    resize: none;
+    display:block;
+    width: 100%;
+    margin-top: 10px;
+}
