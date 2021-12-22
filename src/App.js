@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-import './App.css';
-import Murojat from './Components/Murojat';
-import Working from './Components/Working';
 
-function App() {
-  return (
-    <>
-        {/* <Murojat />
-        <Working /> */}
-    </>
-  );
-=======
 
 
 import "./App.css";
@@ -27,7 +15,6 @@ function App() {
         </>
     );
 
->>>>>>> e99f3264340ee8b120065da9673b03f90c358e6b
 }
 
 export default App;
