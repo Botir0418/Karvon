@@ -10,8 +10,6 @@ function App() {
     return (
     <BrowserRouter>
       
-      <Route path='/murojat' component={Murojat} />
-      <Route path='/working' component={Working} />
       <Route path='/page' component={Page} />
       <Route path='/hoverpost' component={Hoverpost} />
     </BrowserRouter>
