@@ -1,4 +1,5 @@
 import React from "react";
+import '../css/page.css';
 import foto from "../assest/img/photos.png";
 
 const page = () => {
