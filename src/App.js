@@ -4,6 +4,7 @@ import Murojat from "./Components/Murojat";
 import Working from "./Components/Working";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import Hoverpost from "./Components/Hoverpost";
 import Page from "./Components/Page";
 
 function App() {
