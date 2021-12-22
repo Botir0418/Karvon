@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+div.wrapper {
+    width: 95%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #033775;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+footer div.row {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 40px;
+}
+
+footer div.row ul li {
+    list-style-type: none;
+}
+
+footer div.aboutWe {
+    padding-top: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+footer div.aboutWe div.text p {
+    font-size: 22px;
+    line-height: 27px;
+}
+
+footer div.aboutWe div.channels {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+footer div.aboutWe div.channels div.img {
+    margin-left: 15px;
+}
+
+footer div.aboutWe div.channels div.img i {
+    color: #fff;
+}
+
+footer div.withWe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+footer div.withWe div.img {
+    width: 120px;
+}
+
+footer div.withWe div.img img {
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+footer div.withWe ul li {
+    display: inline-block;
+    margin: 11px;
+}
+
+footer div.withWe ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+footer div.adress p {
+    font-size: 14px;
+}

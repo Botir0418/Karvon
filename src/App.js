@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Murojat from "./Components/Murojat";
 import Working from "./Components/Working";
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Route path="/working" component={Working} />
             <Route path="/page" component={Page} />
             <Route path="/hoverpost" component={Hoverpost} />
+            <Footer/>
         </BrowserRouter>
     );
 }
