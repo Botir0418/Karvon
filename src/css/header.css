@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+div.wrapper {
+    width: 95%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #006dee;
+    padding: 20px;
+}
+
+nav div.wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+nav div.wrapper ul.menu-list {
+    position: relative;
+}
+
+nav div.wrapper ul.menu-list button {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 2px 10px;
+    z-index: 3;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    font-size: 25px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav div.wrapper ul.menu-list button:hover {
+    background-color: #fff;
+    color: #006dee;
+}
+
+nav div.wrapper ul.menu-list li {
+    display: inline-block;
+}
+
+nav div.wrapper ul.menu-list li:hover ul.dropdown {
+    display: block;
+}
+
+nav div.wrapper ul.menu-list li a {
+    color: #fff;
+    padding: 5px 10px;
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+nav div.wrapper ul.menu-list li ul.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #006dee;
+    border-bottom-left-radius: 15px;
+}
+
+nav div.wrapper ul.menu-list li ul.dropdown li {
+    display: block;
+    margin: 12px 5px;
+}
+
+nav div.wrapper ul.icon-list button {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 2px 10px;
+    z-index: 3;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    font-size: 25px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav div.wrapper ul.icon-list button:hover {
+    background-color: #fff;
+    color: #006dee;
+}
+
+nav div.wrapper ul.icon-list li {
+    display: inline-block;
+}
+
+nav div.wrapper ul.icon-list li:hover ul.dropdown {
+    display: block;
+}
+
+nav div.wrapper ul.icon-list li a {
+    color: #fff;
+    padding: 5px 10px;
+    position: relative;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+}
+
+nav div.wrapper ul.icon-list li ul.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #006dee;
+    border-bottom-left-radius: 15px;
+}
+
+nav div.wrapper ul.icon-list li ul.dropdown li {
+    display: block;
+    margin: 12px 5px;
+}
+
+nav div.wrapper div.bars {
+    display: none;
+}
+
+nav div.wrapper div.bars a i {
+    color: #fff;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1230px) {
+    nav div.wrapper div.bars {
+        display: block;
+    }
+    nav div.wrapper div.bars.hide {
+        display: none;
+    }
+    nav div.wrapper ul.menu-list button {
+        display: block;
+    }
+    nav div.wrapper ul.menu-list {
+        position: fixed;
+        z-index: 2;
+        left: -100%;
+        top: 64px;
+        width: 200px;
+        padding-top: 40px;
+        height: 100vh;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+        background-color: #006dee;
+    }
+    nav div.wrapper ul.menu-list li {
+        display: block;
+        padding: 20px 0;
+        text-align: center;
+    }
+    nav div.wrapper ul.menu-list li:hover {
+        background-color: #fff;
+    }
+    nav div.wrapper ul.menu-list li:hover a {
+        color: #006dee;
+    }
+    nav div.wrapper ul.menu-list li a {
+        font-size: 16px;
+    }
+    nav div.wrapper ul.menu-list.active {
+        left: 0%;
+    }
+}

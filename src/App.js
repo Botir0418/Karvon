@@ -1,31 +1,23 @@
-
 import "./App.css";
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route } from "react-router-dom";
 import Murojat from "./Components/Murojat";
 import Working from "./Components/Working";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 import Hoverpost from "./Components/Hoverpost";
-import Page from './Components/Page';
-import Tavsiya from "./Components/Tavsiya"
-import Clent from "./Components/Clent";
-import Side from "./Components/Side";
-
+import Page from "./Components/Page";
 
 function App() {
     return (
-    <BrowserRouter>
-      
-      <Route path='/murojat' component={Murojat} />
-      <Route path='/working' component={Working} />
-      <Route path='/hoverpost' component={Hoverpost} />
-      <Route path='/page' component={Page} />
-      <Route path='/tavsiya' component={Tavsiya} />
-      <Route path='/clent' component={Clent} />
-      <Route path='/side' component={Side} />
-
-
-    </BrowserRouter>
+        <BrowserRouter>
+            <Header />
+            <Route path="/murojat" component={Murojat} />
+            <Route path="/working" component={Working} />
+            <Route path="/page" component={Page} />
+            <Route path="/hoverpost" component={Hoverpost} />
+            <Footer/>
+        </BrowserRouter>
     );
-
 }
 
 export default App;

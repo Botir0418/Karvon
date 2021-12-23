@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/Hoverpost.css";
+import "../css/Hoverpost.scss";
 
 const hoverpost = () => {
     return (

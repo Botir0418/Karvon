@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.data_text{
+    display: flex;
+    // align-items: center;
+    
+    
+    div.data{
+        display: flex;
+        // align-items: center;
+        margin-right: 20px;
+        
+        
+        i{
+            font-weight: normal;
+            font-size: 14px;
+            color: #808080;
+            margin: 4px 5px 0px 0px;
+            
+    
+        }
+        p.shov{
+            font-weight: normal;
+            font-size: 14px;
+            color: #808080;
+            margin: 0;
+        
+        }
+    
+        
+    }
+
+    
+     
+
+}
+
+
+div.wrapper{
+    margin: 100px 0px 120px 0px;
+    div.wrapper_content{
+        border-right: 0.5px solid #7E7E7E;
+        div.content{
+            div.content_text{
+                h1{
+                    font-weight: bold;
+                    font-size: 28px;
+                    color: #000;
+                    margin-top: 10px;
+
+                }
+
+                img{
+                    margin-top:30px;
+                    width: 95%;
+
+                }
+
+                h3{
+                    font-weight: normal;
+                    font-size: 18px;
+                    margin-top:30px;
+
+                }
+            }
+
+        }
+        
+    }
+
+
+    div.content_right{
+        div.title{
+            h1{
+                font-weight: bold;
+                font-size: 28px;
+                color: #000;
+
+            }
+        }
+
+        div.right_text{
+            padding-bottom: 15px;
+            border-bottom: 0.5px solid #7E7E7E;
+            margin-top: 22px;
+            p{
+                font-weight: bold;
+                font-size: 18px;
+                color: #4E4E4E;
+            }
+            p.shov{
+                font-weight: normal;
+                font-size: 14px;
+                color: #808080;
+                margin: 0;
+            
+            }
+        }
+    }
+}
+
+
+
+
+div.carusel{
+    margin: 20px 0px 50px 0px;
+    .carousel {
+        position: relative;
+        width: 100%;
+        height: 230px;
+        overflow: hidden;
+        background-color: #cdcdcd;
+        .carousel-item {
+          position: absolute;
+          width: 100%;
+          height: 270px;
+          border: 1px solid #2e2e2e;
+          top: 0;
+          left: 100%;
+          &.active {
+            left: 0;
+            transition: all 0.3s ease-out;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+          }
+          div {height: 100%;}
+          
+        }
+      }
+      
+}
+
+
+
+div.news{
+    div.title{
+        margin-bottom: 20px;
+        h1{
+            font-weight: bold;
+            font-size: 28px;
+            color: #000;
+
+        }
+    }
+
+    div.news_content{
+        div.news_item{
+            margin-bottom: 30px;
+            display:flex;
+            div.news_img{
+                margin-right: 20px;
+                img{
+                    box-sizing: border-box;
+
+                }
+            }
+
+            div.news_text{
+                div.text{
+                    h3{
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: #000;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
